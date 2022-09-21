@@ -1,0 +1,36 @@
+
+<!--<label>Server Name</label>-->
+<!--<input type="text" class="form-control" (input)="onUpdateServerName($event)">-->
+<!--DIRECTIVAS-->
+<!--
+<input type="text" class="form-control" [(ngModel)]="serveName">
+<button class="btn btn-primary" [disabled]="!allowNewServer" (click)="onCreateServer()">AddServer</button>
+
+<p *ngIf="serverCreated">Server was created, serve name is {{ serveName }}</p>
+-->
+<!--DIRECTIVAS CIERRE-->
+<!--
+    <p *ngIf="serverCreated; else noServer">Server was created, serve name is {{ serveName }}</p>
+
+    <ng-template #noServer>
+        <p>No server was created!</p>
+    </ng-template>
+-->
+
+<!--
+<br>
+<label>Username</label>
+<input type="text" class="form-control" [(ngModel)]="userName" (input)="onUpdateAllowUserName($event)">
+<p>{{ userName }}</p>
+<button class="btn btn-primary" [disabled]="!allowNewServer2" (click)="onUserName()">reseat</button>
+--->
+
+<!--<p>{{ serveName }}</p>-->
+
+<!--<p [innerText]="allowNewServer"></p>
+
+<p>{{ serverCreationStatus }}</p>-->
+
+<!--<app-server *ngFor="let server of servers"></app-server>--> <!--DIRECTIVAS-->
+
+
